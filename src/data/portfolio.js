@@ -1,6 +1,6 @@
 export const person = {
   name: 'Aditi Avinash Nikam',
-  title: 'CSE Student & Full Stack Developer | Building Scalable Web Applications',
+  title: 'Computer Science Graduate | Full Stack Developer | Building Scalable Web Applications',
   tagline:
     'Passionate about developing modern, user-friendly web applications and solving real-world problems through clean and efficient code.',
   location: 'India',
@@ -19,10 +19,10 @@ export const person = {
 export const about = {
   headline: 'About Me',
   intro:
-    'Computer Science and Engineering student at KLE Technological University with a strong interest in software development and problem-solving. Passionate about building scalable applications and learning new technologies. Experienced in full-stack development and machine learning through academic and personal projects.',
+    'Computer Science graduate with hands-on experience in full-stack web development, AI integration, and cloud deployment. Skilled in building scalable applications using React.js, Node.js, PostgreSQL, and modern development tools. Passionate about creating impactful software solutions and continuously learning emerging technologies.',
   pills: [
     { icon: 'MapPin', text: 'Belagavi, Karnataka' },
-    { icon: 'GraduationCap', text: 'CSE Student • CGPA 8.50' },
+    { icon: 'GraduationCap', text: 'B.E. Computer Science Graduate • CGPA 8.65' },
   ],
   groups: [
     {
