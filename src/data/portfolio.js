@@ -26,24 +26,24 @@ export const about = {
   ],
   groups: [
     {
-      title: 'Languages',
+      title: 'Programming Languages',
       icon: 'Code2',
       items: ['C++', 'Java', 'Python', 'SQL'],
     },
     {
-      title: 'Web',
+      title: 'Web Technologies',
       icon: 'Globe',
-      items: ['HTML', 'CSS', 'JavaScript', 'React'],
+      items: ['HTML', 'CSS', 'JavaScript', 'React.js'],
     },
     {
-      title: 'Backend',
-      icon: 'TerminalSquare',
-      items: ['Node.js', 'Express'],
-    },
-    {
-      title: 'Databases',
+      title: 'Backend & Databases',
       icon: 'Database',
-      items: ['MySQL', 'MongoDB', 'PostgreSQL'],
+      items: ['Node.js', 'Express.js', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase'],
+    },
+    {
+      title: 'Tools & Practices',
+      icon: 'TerminalSquare',
+      items: ['Git', 'GitHub', 'REST APIs', 'Prisma ORM'],
     },
   ],
 }
@@ -224,40 +224,24 @@ export const achievements = [
 
 export const skills = [
   {
-    group: 'Programming',
-    items: [
-      { name: 'C++', level: 85 },
-      { name: 'Java', level: 80 },
-      { name: 'Python', level: 75 },
-      { name: 'SQL', level: 86 },
-    ],
+    group: 'Programming Languages',
+    items: ['C++', 'Java', 'Python', 'SQL'],
   },
   {
-    group: 'Web Development',
-    items: [
-      { name: 'React', level: 50 },
-      { name: 'JavaScript', level: 70 },
-      { name: 'HTML/CSS', level: 90 },
-      // { name: 'Node.js', level: 60 },
-      // { name: 'Express', level: 60 },
-    ],
+    group: 'Core CS',
+    items: ['DSA', 'OOP', 'OS', 'DBMS', 'Computer Networks'],
   },
   {
-    group: 'Databases',
-    items: [
-      { name: 'MongoDB', level: 82 },
-      { name: 'PostgreSQL', level: 76 },
-      { name: 'MySQL', level: 78 },
-    ],
+    group: 'Web Technologies',
+    items: ['HTML', 'CSS', 'JavaScript', 'React.js'],
   },
   {
-    group: 'Tools & DevOps',
-    items: [
-      { name: 'Git', level: 50 },
-      // { name: 'Docker', level: 50 },
-      { name: 'AWS', level: 60 },
-      { name: 'Cursor', level: 99 },
-    ],
+    group: 'Backend & Databases',
+    items: ['Node.js', 'Express.js', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase'],
+  },
+  {
+    group: 'Tools & Practices',
+    items: ['Git', 'GitHub', 'REST APIs', 'Prisma ORM'],
   },
 ]
 

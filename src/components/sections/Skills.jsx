@@ -3,27 +3,6 @@ import { skills } from '../../data/portfolio'
 import { fadeUp } from '../../lib/motion'
 import { Container } from '../ui/Container'
 
-function SkillBar({ name, level }) {
-  return (
-    <div className="py-2">
-      <div className="flex items-center justify-between gap-3">
-        <p className="text-[13px] font-medium text-slate-900 dark:text-white">
-          {name}
-        </p>
-        <p className="text-[11px] font-medium text-slate-500 dark:text-slate-300">
-          {level}%
-        </p>
-      </div>
-      <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-white/10">
-        <div
-          className="h-full rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-300 dark:to-indigo-300"
-          style={{ width: `${level}%` }}
-        />
-      </div>
-    </div>
-  )
-}
-
 export function Skills() {
   return (
     <section id="skills" className="py-12 sm:py-14">
@@ -40,7 +19,7 @@ export function Skills() {
             Technical <span className="text-indigo-600 dark:text-indigo-300">Skills</span>
           </h2>
           <p className="mt-4 text-slate-600 dark:text-slate-300">
-            A comprehensive overview of my technical proficiency across different domains.
+            A comprehensive overview of my technical toolkit across different domains.
           </p>
         </motion.div>
 
@@ -56,9 +35,14 @@ export function Skills() {
               className="rounded-2xl bg-white/80 p-6 ring-1 ring-slate-200 shadow-[0_18px_50px_-35px_rgba(15,23,42,0.35)] backdrop-blur dark:bg-white/5 dark:ring-white/10"
             >
               <p className="text-sm font-semibold text-slate-900 dark:text-white">{group.group}</p>
-              <div className="mt-3 divide-y divide-slate-200/70 dark:divide-white/10">
-                {group.items.map((s) => (
-                  <SkillBar key={s.name} name={s.name} level={s.level} />
+              <div className="mt-4 flex flex-wrap gap-2">
+                {group.items.map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-slate-900/5 px-3 py-1 text-xs font-medium text-slate-700 dark:bg-white/10 dark:text-slate-200"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </motion.div>
@@ -68,4 +52,3 @@ export function Skills() {
     </section>
   )
 }
-
