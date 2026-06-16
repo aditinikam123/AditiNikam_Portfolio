@@ -48,6 +48,33 @@ export const about = {
   ],
 }
 
+export const education = [
+  {
+    degree: 'Bachelor of Engineering',
+    stream: 'Computer Science and Engineering',
+    institute: 'KLE Dr. M. S. Sheshgiri College of Engineering and Technology, Belagavi, Karnataka',
+    year: '2026',
+    scoreLabel: 'CGPA',
+    scoreValue: '8.65',
+  },
+  {
+    degree: 'Diploma',
+    stream: 'Computer Science Engineering',
+    institute: 'Motichand Lengade Bharatesh Polytechnic, Belagavi, Karnataka',
+    year: '2023',
+    scoreLabel: 'CGPA',
+    scoreValue: '9.15',
+  },
+  {
+    degree: 'High School',
+    stream: 'SSLC',
+    institute: 'Sant Meera English Medium School, Belagavi, Karnataka',
+    year: '2020',
+    scoreLabel: 'Percentage',
+    scoreValue: '73.6%',
+  },
+]
+
 export const projects = [
   {
     title: 'Pravidya- Admission & Counselling Management Platform (Internship Project)',
@@ -134,15 +161,15 @@ export const projects = [
 
 export const experiences = [
   {
-    role: 'Web Application Development Intern',
-    company: 'Infynow Software Solution LLP',
-    duration: 'Aug 2023 — Oct 2023',
+    role: 'AI Implementation Intern',
+    company: 'NeoticMinds Consulting',
+    duration: 'Jan 2026 — May 2026',
     points: [
-      'Completed a Web Application Development Internship at Infynow Software Solutions LLP',
-      'Gained practical experience in HTML, CSS, JavaScript, jQuery, and Bootstrap.',
-      'Developed responsive and interactive web pages.',
-      'Worked on frontend design, styling, and interactive website features.',
-      'Built a Coffee Shop Website project using modern web technologies.',
+      'Contributed to the development of the PRAVIDYA Admission Counselling Platform',
+      'Worked on project deployment using Webuzo VPS',
+      'Deployed another project named Gurumitra',
+      'Performed manual testing for projects including Sahayog',
+      'Worked with technologies and tools like Gemini APIs, Google Calendar API, and other development tools',     
     ],
   },
   {
@@ -157,19 +184,21 @@ export const experiences = [
       'Improved practical knowledge of web security, vulnerability analysis, and penetration testing basics.',
     ],
   },
-
   {
-    role: 'AI Implementation Intern',
-    company: 'NeoticMinds Consulting',
-    duration: 'Jan 2026 — May 2026',
+    role: 'Web Application Development Intern',
+    company: 'Infynow Software Solution LLP',
+    duration: 'Aug 2022 — Oct 2022',
     points: [
-      'Contributed to the development of the PRAVIDYA Admission Counselling Platform',
-      'Worked on project deployment using Webuzo VPS',
-      'Deployed another project named Gurumitra',
-      'Performed manual testing for projects including Sahayog',
-      'Worked with technologies and tools like Gemini APIs, Google Calendar API, and other development tools',     
+      'Completed a Web Application Development Internship at Infynow Software Solutions LLP',
+      'Gained practical experience in HTML, CSS, JavaScript, jQuery, and Bootstrap.',
+      'Developed responsive and interactive web pages.',
+      'Worked on frontend design, styling, and interactive website features.',
+      'Built a Coffee Shop Website project using modern web technologies.',
     ],
   },
+  
+
+  
 ]
 
 
